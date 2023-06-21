@@ -1,14 +1,14 @@
-*{
+ *{
     margin: 0;
     padding: 0;
-}
-#homeBG{
-     background: linear-gradient(rgba(0, 0, 0, 0.95),rgba(45, 189, 178, 0.15)), url(IMG/UPDF_BG.jpg);
+ }
+ #home_BG{
+     background: linear-gradient(rgba(0, 0, 0, 0.95),rgba(56, 227, 213, 0.2)), url(IMG/UPDF_BG.jpg);
      background-size: cover;
      background-position: center;
-     height: 200vh;
-}
-.LogoMain{
+     height: 110vh;
+ }
+ .LogoMain{
      width: 140px;
      position: absolute;
      top: 6%;
@@ -18,24 +18,24 @@
      font-family: 'Bruno Ace', cursive;
      text-align: center;
      color:blanchedalmond;
-     padding-top: 180px;
-}
-.headtext h1{
+     padding-top: 100px;
+ }
+ .headtext h1{
      font-size: 200px;
      color:blanchedalmond;
     
-}
-.headtext p{
+ }
+ .headtext p{
     font-size: 20px;
     color:rgb(255, 255, 255);
     font-style: italic;
 
-}
-.Main-btn{ 
-    margin:50px auto 0;
+ }
+ .Main-btn{ 
+    margin:30px auto 0;
     font-size: 30px;
-}
-.Main-btn a{ 
+ }
+ .Main-btn a{ 
      width:150px;
      text-decoration: none;
      display:inline-block;
@@ -48,7 +48,7 @@
      transition: 0.12s;
     }
 
-.Main-btn a span{
+ .Main-btn a span{
      width: 100%;
      height: 0%;
      position: absolute;
@@ -57,14 +57,36 @@
      background: cyan;
      z-index: -1;
      transition: 0.12s;
-}
-.Main-btn a:hover span{
+ }
+ .Main-btn a:hover span{
      height:100%;
-
+ 
 }
-.Main-btn a:hover{
-    color: black;
-
+ .Main-btn a:hover{
+     color: black;
+ }
+ .caution{
+     padding:50px;
+     margin: 200px;
+     font-style: bold;    
+ }
+ *{
+    margin: 90;
+    padding: 100;
+ }
+ #main_BG{
+    background: linear-gradient(rgba(0, 0, 0, 0.95),rgb(43, 96, 89));
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+ }
+ .upcoming p {
+    font-family: 'Lexend Peta', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: aqua;
+    padding: 300px;
+    margin: 0;
+    letter-spacing: 5px;
 }
-
-
+     
