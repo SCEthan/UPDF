@@ -97,16 +97,26 @@
 }
 
 /* Upcoming Section */
+/* Upcoming Section */
+.upcoming {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;         /* take full screen height */
+    text-align: center;
+    padding: 2rem;
+}
+
 .upcoming p {
     font-family: 'Lexend Peta', sans-serif;
-    text-align: center;
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-size: clamp(1rem, 2.5vw, 1.5rem); /* scales text */
     color: aqua;
-    padding: 5vh 2rem;
+    line-height: 1.6;
+    letter-spacing: 0.1em;     /* subtle spacing */
+    max-width: 700px;          /* prevents text from going too wide */
     margin: 0 auto;
-    letter-spacing: 0.3em;
-    max-width: 90%;
 }
+
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
@@ -118,3 +128,4 @@
         margin: 0.5rem;
     }
 }
+
