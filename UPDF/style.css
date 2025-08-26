@@ -3,7 +3,7 @@
     padding: 0;
  }
  #home_BG{
-     background: linear-gradient(rgba(0, 0, 0, 0.95),rgba(56, 227, 213, 0.2)), url(IMG/UPDF_BG.jpg);
+     background: linear-gradient(rgba(0, 0, 0, 0.95),rgba(56, 227, 213, 0.2)), url(IMG/AlperPEAK.png);
      background-size: cover;
      background-position: center;
      height: 110vh;
@@ -93,4 +93,5 @@
     margin: 0;
     letter-spacing: 0.2vw;
 }
+
      
