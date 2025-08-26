@@ -11,7 +11,7 @@
                 url(IMG/UPDF_BG.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 120vh;
 }
 
 #main_BG {
@@ -24,10 +24,10 @@
 /* Logo */
 .LogoMain {
     width: 12vw; /* scales with screen width */
-    max-width: 140px;
+    max-width: 14vw;
     position: absolute;
     top: 5%;
-    left: 3%;
+    left: 5%;
 }
 
 /* Head Text */
@@ -46,7 +46,7 @@
 .headtext p {
     font-size: clamp(1rem, 2vw, 1.5rem);
     color: #fff;
-    font-style: italic;
+    font-style: bolc;
 }
 
 /* Buttons */
@@ -102,7 +102,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;         /* take full screen height */
+    min-height: 60vh;         /* take full screen height */
     text-align: center;
     padding: 2rem;
 }
@@ -128,4 +128,5 @@
         margin: 0.5rem;
     }
 }
+
 
