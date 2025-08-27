@@ -9,6 +9,25 @@
        <meta name="viewport" content="width = device-width, initial-scale =1">
       <section id="home_BG">
              <img src="IMG/UPDF.png" class="LogoMain">
+             <label for="Choose subject"></label><br>
+              <select id="subjectSelect" class="dropdown-select">
+                <option value="">-- Select a subject --</option>
+                <option value="https://www.khanacademy.org/math">Mathematics</option>
+                <option value="https://www.sciencenews.org/">Sciences</option>
+                <option value="https://www.sparknotes.com/lit/">English Literature</option>
+                <option value="https://ncert.nic.in/textbook.php?hehb1=0-14">Hindi Course B</option>
+               <option value="https://www.history.com/">Social Sciences</option>
+              </select>
+
+<script>
+  document.getElementById("subjectSelect").addEventListener("change", function() {
+    const url = this.value;
+    if (url) {
+      window.open(url, "_blank"); // open in new tab
+    }
+  });
+</script>
+ 
       </section>
 </HTML>
 
