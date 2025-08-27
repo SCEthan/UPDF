@@ -127,6 +127,7 @@
 /* Dropdown Styling */
 .dropdownSelector {
   display: block;
+  align-items: center;
   margin: 2rem auto;
   padding: 0.8rem 1rem;
   font-size: clamp(1rem, 2vw, 1.2rem);
@@ -156,3 +157,4 @@
     width: clamp(6rem, 30vw, 8rem);
   }
 }
+
