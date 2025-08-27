@@ -31,7 +31,7 @@
 }
 .LogoMain:hover {
   transform: scale(1.2);
-  box-shadow: 0 0 25px 5px rgba(0, 255, 255, 0.8);
+  filter: drop-shadow(0 0 20px rgba(0, 255, 255, 0.9));
 }
 
 /* Head Text */
@@ -152,6 +152,7 @@
         margin: 0.5rem;
     }
 }
+
 
 
 
