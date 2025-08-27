@@ -31,9 +31,9 @@
 }
 .LogoMain:hover {
   transform: scale(1.2);
-  filter: drop-shadow(0 0 10px rgba(0, 0, 255, 1))
-          drop-shadow(0 0 20px rgba(0, 255, 255, 0.8))
-          drop-shadow(0 0 30px rgba(0, 255, 255, 0.6));
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1))
+          drop-shadow(0 0 20px rgba(0, 255, 255, 0.98))
+          drop-shadow(0 0 30px rgba(0, 255, 255, 0.2));
 }
 
 /* Head Text */
@@ -154,6 +154,7 @@
         margin: 0.5rem;
     }
 }
+
 
 
 
