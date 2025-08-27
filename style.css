@@ -121,41 +121,23 @@
     margin: 0 auto;
 }
 /* Style the dropdown itself */
-.dropdown-select {
-  appearance: none;      /* remove default browser style */
+.dp {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #00c8ff;    /* custom border */
+  border-radius: 8px;           /* rounded corners */
+  background-color: #fff;       /* white background */
+  color: #333;                  /* text color */
+  cursor: pointer;
+  transition: 0.3s ease;
+  appearance: none;             /* removes default browser styles */
   -webkit-appearance: none;
   -moz-appearance: none;
-
-  background-color: linear-gradient(rgba(0, 0, 0, 0.95), rgba(56, 227, 213, 0.6));
-  border: 20% solid #333;
-  border-radius: 8%;
-  padding: 10% 15%;
-  font-size: 16%;
-  font-family: 'Lexend Peta', sans-serif;
-  color: #333;
-
-  cursor: pointer;
-  outline: none;
-  width: 25vw;
-  transition: 0.2s ease-in-out;
 }
 
-/* On hover */
-.dropdown-select:hover {
-  border-color: #0077cc;
-  box-shadow: 0 0 5px rgba(0, 119, 204, 0.5);
-}
-
-/* On focus */
-.dropdown-select:focus {
-  border-color: #005fa3;
-}
-
-/* Style the option list */
-.dropdown-select option {
-  background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(56, 227, 213, 0.6));
-  color: #333;
-  padding: 1vw;
+.dp:hover {
+  border-color: #00ffaa;        /* change border on hover */
+  box-shadow: 0 0 8px rgba(0, 200, 255, 0.4); /* glow effect */
 }
 
 
@@ -169,6 +151,7 @@
         margin: 0.5rem;
     }
 }
+
 
 
 
