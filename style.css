@@ -22,8 +22,8 @@
 
 /* Logo */
 .LogoMain {
-    width: 36vw; /* scales with screen width */
-    max-width: 42vw;
+    width: 24vw; /* scales with screen width */
+    max-width: 28vw;
     position: absolute;
     top: 5%;
     left: 5%;
@@ -124,12 +124,13 @@
 }
 /* Style the dropdown itself */
 .dropdownSelector {
-  padding: 12vw;
+  padding: 1.2vw;
   margin: 0 auto;
   font-size: 1.6vq;
   font-family: 'Lexend Peta', sans-serif;
-  border: 0.05% solid #00c8ff;    /* custom border */
-  border-radius: 0.08vq;           /* rounded corners */
+  border: 0.5vw solid #00c8ff;/* custom border */
+  border-radius: 0.08vq; 
+  align: center;
   background-color: #fff;       /* white background */
   color: #333;                  /* text color */
   cursor: pointer;
@@ -155,6 +156,7 @@
         margin: 0.5rem;
     }
 }
+
 
 
 
