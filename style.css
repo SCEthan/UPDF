@@ -129,8 +129,8 @@
   -webkit-appearance: none;
   -moz-appearance: none;
 
-  background-color: #f9f9f9;
-  border: 2% solid #333;
+  background-color: linear-gradient(rgba(0, 0, 0, 0.95), rgba(56, 227, 213, 0.6));
+  border: 20% solid #333;
   border-radius: 8%;
   padding: 10% 15%;
   font-size: 16%;
@@ -172,6 +172,7 @@
         margin: 0.5rem;
     }
 }
+
 
 
 
