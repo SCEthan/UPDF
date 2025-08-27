@@ -121,7 +121,7 @@
     margin: 0 auto;
 }
 /* Style the dropdown itself */
-.dp {
+.dropdownSelector {
   padding: 10px;
   font-size: 16px;
   border: 2px solid #00c8ff;    /* custom border */
@@ -135,7 +135,7 @@
   -moz-appearance: none;
 }
 
-.dp:hover {
+.dropdownSelector:hover {
   border-color: #00ffaa;        /* change border on hover */
   box-shadow: 0 0 8px rgba(0, 200, 255, 0.4); /* glow effect */
 }
@@ -151,6 +151,7 @@
         margin: 0.5rem;
     }
 }
+
 
 
 
