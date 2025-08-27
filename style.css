@@ -27,11 +27,11 @@
     position: absolute;
     top: 5%;
     left: 5%;
-    transition: all 0.7s ease-in-out;
+    transition: all 0.05s ease-in-out;
 }
 .LogoMain:hover {
-  transform: scale(1.1); /* grow */
-  filter: drop-shadow(0 0 10px rgba(0, 200, 255, 0.7));
+  transform: scale(1.5); /* grow */
+  filter: drop-shadow(0 0 10px rgba(100,100,100,100));
 }
 
 /* Head Text */
@@ -151,6 +151,7 @@
         margin: 0.5rem;
     }
 }
+
 
 
 
