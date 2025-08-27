@@ -112,8 +112,45 @@
     color: aqua;
     line-height: 1.6;
     letter-spacing: 0.1em;     /* subtle spacing */
-    max-width: 700px;          /* prevents text from going too wide */
+    max-width: 70%;          /* prevents text from going too wide */
     margin: 0 auto;
+}
+/* Style the dropdown itself */
+.dropdown-select {
+  appearance: none;      /* remove default browser style */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-color: #f9f9f9;
+  border: 2% solid #333;
+  border-radius: 8%;
+  padding: 10% 15%;
+  font-size: 16%;
+  font-family: Arial, sans-serif;
+  color: #333;
+
+  cursor: pointer;
+  outline: none;
+  width: 25vw;
+  transition: 0.2s ease-in-out;
+}
+
+/* On hover */
+.dropdown-select:hover {
+  border-color: #0077cc;
+  box-shadow: 0 0 5px rgba(0, 119, 204, 0.5);
+}
+
+/* On focus */
+.dropdown-select:focus {
+  border-color: #005fa3;
+}
+
+/* Style the option list */
+.dropdown-select option {
+  background: #fff;
+  color: #333;
+  padding: 1vw;
 }
 
 
@@ -127,6 +164,7 @@
         margin: 0.5rem;
     }
 }
+
 
 
 
