@@ -124,11 +124,11 @@
 }
 /* Style the dropdown itself */
 .dropdownSelector {
-  padding: 10px;
-  font-size: 16px;
+  padding: 100vw;
+  font-size: 160vq;
   font-family: 'Lexend Peta', sans-serif;
-  border: 2px solid #00c8ff;    /* custom border */
-  border-radius: 8px;           /* rounded corners */
+  border: 20% solid #00c8ff;    /* custom border */
+  border-radius: 8vh;           /* rounded corners */
   background-color: #fff;       /* white background */
   color: #333;                  /* text color */
   cursor: pointer;
@@ -140,7 +140,7 @@
 
 .dropdownSelector:hover {
   border-color: #00ffaa;        /* change border on hover */
-  box-shadow: 0 0 8px rgba(0, 200, 255, 0.4); /* glow effect */
+  box-shadow: 0 0 800vw rgba(0, 200, 255, 0.4); /* glow effect */
 }
 
 
@@ -154,6 +154,7 @@
         margin: 0.5rem;
     }
 }
+
 
 
 
