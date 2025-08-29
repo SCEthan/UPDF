@@ -11,6 +11,7 @@
               url(IMG/AlperPEAK.png);
   background-size: 105%;
   background-position: center;
+  background-repeat: no-repeat;
   min-height: 120vh;
   transition: background-position 0.1s ease;
 }
@@ -158,6 +159,7 @@
     width: clamp(6rem, 30vw, 8rem);
   }
 }
+
 
 
 
