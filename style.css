@@ -22,19 +22,17 @@
   pointer-events: none;
 }
 
-/* Background image (parallax target) */
+/* Image layer (controlled by JS vars) */
 #home_BG::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: url(IMG/AlperPEAK.png) center/cover no-repeat;
-  transition: background-position 0.1s ease;
-  z-index: 0;
-  will-change: background-position;
-}
-
-#home_BG::after {
+  background: url("IMG/AlperPEAK.png") center/cover no-repeat;
   background-position: var(--bg-x, 50%) var(--bg-y, 50%);
+  transition: background-position 0.1s ease-out;
+  will-change: background-position;
+  z-index: 0;
+}: var(--bg-x, 50%) var(--bg-y, 50%);
 }
 
 #main_BG {
@@ -180,6 +178,7 @@
     width: clamp(6rem, 30vw, 8rem);
   }
 }
+
 
 
 
