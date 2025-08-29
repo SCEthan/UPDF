@@ -9,7 +9,7 @@
 #home_BG {
   position: relative;
   background: url(IMG/AlperPEAK.png) no-repeat center center;
-  background-size: 130%; /* oversize a bit to avoid white bars */
+  background-size: 115%; /* oversize a bit to avoid white bars */
   min-height: 120vh;
   transition: background-position 0.1s ease;
   overflow: hidden;
@@ -177,6 +177,7 @@
     width: clamp(6rem, 30vw, 8rem);
   }
 }
+
 
 
 
