@@ -8,17 +8,18 @@
 /* Backgrounds */
 #home_BG {
   position: relative;
-  background: url(IMG/AlperPEAK.png) no-repeat center center;
-  background-size: 200%; /* oversize a bit to avoid white bars */
+  background: 
+    linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(56, 227, 213, 0.3) 105%),
+    url(IMG/AlperPEAK.png) no-repeat center center;
+  background-size: 125%, 125%; /* gradient + image both scale */
   min-height: 120vh;
   transition: background-position 0.1s ease;
   overflow: hidden;
-  z-index: 0; /* so overlay sits above */
 }
 
+
 #home_BG::before {
-display: none;
-}
+displa
 
 #home_BG > * {
   position: relative;
@@ -169,6 +170,7 @@ display: none;
     width: clamp(6rem, 30vw, 8rem);
   }
 }
+
 
 
 
