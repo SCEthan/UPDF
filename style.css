@@ -28,6 +28,12 @@
   pointer-events: none;
 }
 
+#home_BG > * {
+  position: relative;
+  z-index: 1; /* content always above */
+}
+
+
 #main_BG {
   background: linear-gradient(rgba(0, 0, 0, 0.95), rgb(43, 96, 89));
   background-position: bottom;
@@ -171,6 +177,7 @@
     width: clamp(6rem, 30vw, 8rem);
   }
 }
+
 
 
 
