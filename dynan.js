@@ -1,4 +1,4 @@
-<script>
+
   document.addEventListener("mousemove", (e) => {
   const x = e.clientX / window.innerWidth;
   const y = e.clientY / window.innerHeight;
@@ -9,4 +9,3 @@
   const bg = document.querySelector("#home_BG");
   bg.style.backgroundPosition = `calc(50% + ${offsetX}px) calc(50% + ${offsetY}px)`;
 });
-</script>
