@@ -15,6 +15,7 @@
   min-height: 120vh;
   transition: background-position 0.1s ease;
   overflow: hidden;
+}
   
 #home_BG > * {
   position: relative;
@@ -165,6 +166,7 @@
     width: clamp(6rem, 30vw, 8rem);
   }
 }
+
 
 
 
