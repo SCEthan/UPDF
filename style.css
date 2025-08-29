@@ -15,12 +15,7 @@
   min-height: 120vh;
   transition: background-position 0.1s ease;
   overflow: hidden;
-}
-
-
-#home_BG::before {
-displa
-
+  
 #home_BG > * {
   position: relative;
   z-index: 1; /* content always above */
@@ -170,6 +165,7 @@ displa
     width: clamp(6rem, 30vw, 8rem);
   }
 }
+
 
 
 
